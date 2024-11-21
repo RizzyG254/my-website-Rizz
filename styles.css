@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(image/image.jpg), linear-gradient(45deg, rgba(255, 87, 51, 0.9), rgba(33, 150, 243, 0.9), rgba(76, 175, 80, 0.9)); /* Reference the local image */
+    background-size: cover;/* Ensure image covers the whole background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;/* Prevent repeating the image */
+    height: 100vh; /* Full screen height */
+    overflow: hidden;
+    animation: gradientShift 15s ease infinite;
+  }
+  
